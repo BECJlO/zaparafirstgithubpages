@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="background-img-1">
+        <header>
+            <div class="header-top-line wrapper">
+                <div class="logo">
+                    <a href="">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="intermedia">
+                    <div class="numb-tel"><span>+38 (073) 302 03 33</span></div>
+                    <button class="request-call">Заказать звонок</button>
+                    <div class="social-wides">
+                        <div class="social-wides clearfix">
+                            <a class="vk" href=""></a>
+                            <a class="fb" href=""></a>
+                            <a class="irg" href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="green-menu-line">
+                <div class="wrapper">
+                    <nav class="main-menu">
+                        <ul>
+                            <li><a href="">Программы</a></li>
+                            <li><a href="">О питании</a></li>
+                            <li><a href="">О сервисе</a></li>
+                            <li><a href="">Подробное меню</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper">
+            <section class="main-screen">
+                <h2>Первый сервис ежедневной доставки<br>здорового питания в Николаеве</h2>
+                <p>Мы не просто готовим вкусную и полезную еду - программы питания <br> разработаны для достижения ваших целей</p>
+                <a href="#next">
+                </a>
+            </section>
+        </div>
+    </div>
+    <div class="nav-bar-wrapper">
+        <div class="wrapper">
+            <nav class="nav-bar">
+                <ul>
+                    <li class="item-1">
+                        <a href="">Набрать мышечный вес</a>
+                    </li>
+                    <li class="item-2">
+                        <a href="">Похудеть</a>
+                    </li>
+                    <li class="item-3">
+                        <a href="">Поддерживать форму</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="background-img-2">
+        <a id="next"></a>
+        <div class="wrapper">
+            <section class="change-rasion">
+                <h2>Подбор рациона за 15 минут</h2>
+                <p>Заполните форму, и диетолог свяжется с вами свяжется для выбора программы питания!</p>
+                <form class="change-rasion-form" action="post">
+                    <div class="gorisontal-items-form clearfix">
+                        <div class="sex">
+                            <label for="sex">Пол</label>
+                            <select name="sex" id="sex">
+                        <option value="women">Женский</option>
+                        <option value="men">Мужской</option>
+                    </select>
+                        </div>
+                        <div class="age">
+                            <label for="age">Возраст</label>
+                            <input id="age" type="text">
+                        </div>
+                        <div class="weight">
+                            <label for="weight">Ваш вес (кг)</label>
+                            <input id="weight" type="text">
+                        </div>
+                        <div class="desired-weight">
+                            <label for="desired-weight">Желаемый вес (кг)</label>
+                            <input id="desired-weight" type="text">
+                        </div>
+                    </div>
+                    <div class="vertical-items">
+                        <div class="life-style-col">
+                            <p>Образ жизни</p>
+                            <div class="checkbox-item">
+                                <input id="officeWoker" type="checkbox">
+                                <label for="officeWoker"><span></span> Офисный сотрудник</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input id="fitOnWork" type="checkbox">
+                                <label for="fitOnWork"><span></span> Физические нагрузки на работе</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input id="haveChildren" type="checkbox">
+                                <label for="haveChildren"><span></span> Работаю/воспитываю детей дома</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input id="sometimeSport" type="checkbox">
+                                <label for="sometimeSport"><span></span> Иногда занимаюсь спортом</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input id="usuallySport" type="checkbox">
+                                <label for="usuallySport"><span></span> Регулярно хожу на тренировки</label>
+                            </div>
+                        </div>
+                        <div class="input-tel-numb">
+                            <label for="tel">Укажите ваш контактный номер телефона</label>
+                            <input id="tel" type="tel" placeholder="+3 8 ( ___ ) ___ __ __">
+                            <button type="submit">Подобрать рацион</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <div class="background-img-3">
+        <div class="wrapper ">
+            <section class="choice-program">
+                <h2>Какую Программу питания выбрать?</h2>
+                <p>С нами вы привыкнете питаться правильно, позабыв о чувстве голода или переедания, а также изнурительных диетах. Управляйте собственным весом, наслаждаясь гастрономическими блюдами!</p>
+                <div class="menu-cards clearfix">
+                    <div class="menu-card shadow">
+                        <div class="menu-card-title">
+                            <h3>Комфортное похудение</h3>
+                        </div>
+                        <div class="img">
+                            <img src="img/fit_1.png" alt="Комфортное похудение">
+                        </div>
+                        <div class="menu-card-text">
+                            <span>1 200 ккал</span>
+                            <p>Сбрасывайте килограммы, наслаждаясь любимыми блюдами. Внешняя хрупкость, крепкое здоровье, а также безупречное состояние кожи и волос -вещи вполне сочетаемые!</p>
+                        </div>
+                        <a href="#confLosWeight">Смотреть меню<span></span></a>
+                    </div>
+                    <div class="menu-card shadow">
+                        <div class="menu-card-title">
+                            <h3>Поддержание формы</h3>
+                        </div>
+                        <div class="img">
+                            <img src="img/fit_2.png" alt="Поддержание формы">
+                        </div>
+                        <div class="menu-card-text">
+                            <span>1 600 ккал</span>
+                            <p>Идеальный баланс белков, жирови углеводов в виде шедевров гастрономии.Сохраняйте безупречное тело и крепкоездоровье даже при малоподвижномобразе жизни! </p>
+                        </div>
+                        <a href="#preservForm">Смотреть меню<span></span></a>
+                    </div>
+                    <div class="menu-card shadow">
+                        <div class="menu-card-title">
+                            <h3>Спортивное питание</h3>
+                        </div>
+                        <div class="img">
+                            <img src="img/fit_3.png" alt="Спортивное питание">
+                        </div>
+                        <div class="menu-card-text">
+                            <span>2 400 ккал</span>
+                            <p>Насыщенная белками питательная еда,которая буквально заряжает энергией.Увеличивайте мышечный вес и набирайтесьсил для рекордов в спортзалеи восстановления после тренировок!</p>
+                        </div>
+                        <a href="#sportEating">Смотреть меню<span></span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div id="confLosWeight" class="plan-block">
+        <div class="background-img-4">
+            <div class="wrapper">
+                <section class="fit-plan">
+                    <h2>Комфортное похудение</h2>
+                    <p><span>1 200 ккал</span> в день</p>
+                    <ul class="week-days">
+                        <li class="selected-day">
+                            <a href="">Понедельник</a>
+                        </li>
+                        <li>
+                            <a href="">Вторник</a>
+                        </li>
+                        <li>
+                            <a href="">Среда</a>
+                        </li>
+                        <li>
+                            <a href="">Четверг</a>
+                        </li>
+                        <li>
+                            <a href="">Пятница</a>
+                        </li>
+                        <li>
+                            <a href="">Суббота</a>
+                        </li>
+                        <li>
+                            <a href="">Воскресение</a>
+                        </li>
+                    </ul>
+                    <ul class="timeline-foot">
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Завтрак</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow">
+                                            <img src="img/1_1.jpg" alt="">
+                                        </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Ланч</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Обед</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Полдник</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Ужин</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Поздний ужин</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="background-inset-1">
+            <div class="wrapper">
+                <div class="price-plan">
+                    <p>Стоимость - <span>370</span> грн в день</p>
+                    <p>Закажите подписку на 7 дней и получите скидку 5% или на месяц - со скидкой 7,5%!</p>
+                    <button>Подписаться и выбрать скидку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="preservForm" class="plan-block">
+        <div class="background-img-5">
+            <div class="wrapper">
+                <section class="fit-plan">
+                    <h2>Поддержание формы</h2>
+                    <p><span>1 600 ккал</span> в день</p>
+                    <ul class="week-days">
+                        <li class="selected-day">
+                            <a href="">Понедельник</a>
+                        </li>
+                        <li>
+                            <a href="">Вторник</a>
+                        </li>
+                        <li>
+                            <a href="">Среда</a>
+                        </li>
+                        <li>
+                            <a href="">Четверг</a>
+                        </li>
+                        <li>
+                            <a href="">Пятница</a>
+                        </li>
+                        <li>
+                            <a href="">Суббота</a>
+                        </li>
+                        <li>
+                            <a href="">Воскресение</a>
+                        </li>
+                    </ul>
+                    <ul class="timeline-foot">
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Завтрак</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow">
+                                            <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Ланч</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Обед</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Полдник</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Ужин</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Поздний ужин</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="background-inset-2">
+            <div class="wrapper">
+                <div class="price-plan">
+                    <p>Стоимость - <span>440</span> грн в день</p>
+                    <p>Закажите подписку на 7 дней и получите скидку 5% или на месяц - со скидкой 7,5%!</p>
+                    <button>Подписаться и выбрать скидку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sportEating" class="plan-block">
+        <div class="background-img-6">
+            <div class="wrapper">
+                <section class="fit-plan">
+                    <h2>Спортивное питание</h2>
+                    <p><span>2 400 ккал</span> в день</p>
+                    <ul class="week-days">
+                        <li class="selected-day">
+                            <a href="">Понедельник</a>
+                        </li>
+                        <li>
+                            <a href="">Вторник</a>
+                        </li>
+                        <li>
+                            <a href="">Среда</a>
+                        </li>
+                        <li>
+                            <a href="">Четверг</a>
+                        </li>
+                        <li>
+                            <a href="">Пятница</a>
+                        </li>
+                        <li>
+                            <a href="">Суббота</a>
+                        </li>
+                        <li>
+                            <a href="">Воскресение</a>
+                        </li>
+                    </ul>
+                    <ul class="timeline-foot">
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Завтрак</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow">
+                                            <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Ланч</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Обед</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Полдник</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Ужин</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dose">
+                                <div class="dose-title">
+                                    <div class="day-part">Поздний ужин</div>
+                                    <div class="name-resept">Булгур с орехами и медом</div>
+                                    <div class="arrow-box"><span></span></div>
+                                </div>
+                                <div class="drop-div">
+                                    <div class="resept-content">
+                                        <div class="image-wrapper shadow"> <img src="img/1_1.jpg" alt=""> </div>
+                                        <div class="resept-context">
+                                            <h3>Булгур с орехами и медом</h3>
+                                            <div class="brief-info-resept clearfix">
+                                                <div class="brief-info-item">280 ккал</div>
+                                                <div class="brief-info-item">Белки - 15 г</div>
+                                                <div class="brief-info-item">Жиры - 17 г</div>
+                                                <div class="brief-info-item">Углеводы - 9 г</div>
+                                            </div>
+                                            <p>Мягкое сочетание измельченной пшеницы, изюма и грецких орехов. Элитная каша наполняет организм энергией: крупа насыщает клетчаткой, домашний мед - фруктозой для мозга, а орешки - заряжают мозг.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="background-inset-3">
+            <div class="wrapper">
+                <div class="price-plan">
+                    <p>Стоимость - <span>370</span> грн в день</p>
+                    <p>Закажите подписку на 7 дней и получите скидку 5% или на месяц - со скидкой 7,5%!</p>
+                    <button>Подписаться и выбрать скидку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-img-7">
+        <div class="wrapper">
+            <div class="why">
+                <h2>Почему стоит попробовать?</h2>
+                <p>Больше не нужно делать выбор между "вкусно" и "полезно"!<br>Даже одна неделя с нами избавит вас от тяги к вредному фаст-фуду и калорийным сладостям.</p>
+                <div class="wrap-icons clearfix">
+                    <div class="delicious">
+                        <h3>Вкусно</h3>
+                        <div class="delicious-info info-delic-1">
+                            <h4> Lorem CHET-TAM Vcusno 1 </h4>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis culpa eius eaque dolore laboriosam facere minus maxime fuga optio, impedit tenetur quas ratione nemo reiciendis maiores mollitia perspiciatis, obcaecati commodi?</p>
+                        </div>
+                        <div class="delicious-info info-delic-2">
+                            <h4> Lorem CHET-TAM Vcusno 2 </h4>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis culpa eius eaque dolore laboriosam facere minus maxime fuga optio, impedit tenetur quas ratione nemo reiciendis maiores mollitia perspiciatis, obcaecati commodi?</p>
+                        </div>
+                        <div class="delicious-info info-delic-3">
+                            <h4> Lorem CHET-TAM Vcusno 3 </h4>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis culpa eius eaque dolore laboriosam facere minus maxime fuga optio, impedit tenetur quas ratione nemo reiciendis maiores mollitia perspiciatis, obcaecati commodi?</p>
+                        </div>
+                        <div class="delicious-info info-delic-4">
+                            <h4> Lorem CHET-TAM Vcusno 4 </h4>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis culpa eius eaque dolore laboriosam facere minus maxime fuga optio, impedit tenetur quas ratione nemo reiciendis maiores mollitia perspiciatis, obcaecati commodi?</p>
+                        </div>
+                        <div class="icons-block">
+                            <div class="icon icon-1"><img id="info-delic-1" src="img/delic_icon_1.png" alt=""></div>
+                            <div class="icon icon-2"><img id="info-delic-2" src="img/delic_icon_2.png" alt=""></div>
+                            <div class="icon icon-3"><img id="info-delic-3" src="img/delic_icon_3.png" alt=""></div>
+                            <div class="icon icon-4"><img id="info-delic-4" src="img/delic_icon_4.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="useful">
+                        <h3>Полезно</h3>
+                        <div class="useful-info info-useful-1">
+                            <h4> Lorem SHOTO Polezno 1 </h4>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis culpa eius eaque dolore laboriosam facere minus maxime fuga optio, impedit tenetur quas ratione nemo reiciendis maiores mollitia perspiciatis, obcaecati commodi?</p>
+                        </div>
+                        <div class="useful-info info-useful-2">
+                            <h4> Lorem SHOTO Polezno 2 </h4>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis culpa eius eaque dolore laboriosam facere minus maxime fuga optio, impedit tenetur quas ratione nemo reiciendis maiores mollitia perspiciatis, obcaecati commodi?</p>
+                        </div>
+                        <div class="useful-info info-useful-3">
+                            <h4> Lorem SHOTO Polezno 3 </h4>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis culpa eius eaque dolore laboriosam facere minus maxime fuga optio, impedit tenetur quas ratione nemo reiciendis maiores mollitia perspiciatis, obcaecati commodi?</p>
+                        </div>
+                        <div class="useful-info info-useful-4">
+                            <h4> Lorem SHOTO Polezno 4 </h4>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis culpa eius eaque dolore laboriosam facere minus maxime fuga optio, impedit tenetur quas ratione nemo reiciendis maiores mollitia perspiciatis, obcaecati commodi?</p>
+                        </div>
+                        <div class="icons-block">
+                            <div class="icon icon-1"><img id="info-useful-1" src="img/useful_icon_1.png" alt=""></div>
+                            <div class="icon icon-2"><img id="info-useful-2" src="img/useful_icon_2.png" alt=""></div>
+                            <div class="icon icon-3"><img id="info-useful-3" src="img/useful_icon_3.png" alt=""></div>
+                            <div class="icon icon-4"><img id="info-useful-4" src="img/useful_icon_4.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info-in-figures">
+                <h3>"Вкусно Полезно" в цифрах</h3>
+                <div class="row-info-blocks clearfix">
+                    <div class="info-block">
+                        <p class="numeral">35</p>
+                        <p>Витаминизированных блюд,<br>в частности десерты</p>
+                    </div>
+                    <div class="info-block">
+                        <p class="numeral">40</p>
+                        <p>Жителей города присоединяется<br>к нам каждый месяц</p>
+                    </div>
+                    <div class="info-block">
+                        <p class="numeral">65</p>
+                        <p>Точек ежедневно<br>посещают наши курьеры</p>
+                    </div>
+                    <div class="info-block">
+                        <p class="numeral">90</p>
+                        <p>ингредиентов входит в недельное<br>меню любого рациона</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="personal-chef">
+            <h3>Ваш личный повар, диетолог и курьер<br>в одном лице</h3>
+            <p>Ежемесячно вы вкладываете деньги в разнообразные сервисы, оплачиваете услуги и делаете покупки.<br>Сделайте инвестицию в свое здоровье и красоту, и уже через месяц вы полюбите свое тело, позабыв о плохом самочувствии!
+            </p>
+            <div class="dignity clearfix">
+                <div class="dignity-block clearfix">
+                    <div class="image"><img src="img/block_img_1.png" alt=""></div>
+                    <div class="text">
+                        <h4>Ценим ваше время</h4>
+                        <p>Вам не придется готовить еду дома, ожидать в очереди в магазине, даже устанавливать приложение на телефон или регистрироваться в онлайн-сервисе. Сделайте заказ раз в неделю или в месяц и экономьте более 20 часов в неделю.</p>
+                    </div>
+                </div>
+                <div class="dignity-block clearfix">
+                    <div class="text">
+                        <h4>Экономим ваши деньги</h4>
+                        <p>Кушать с нами не только вкусно и полезно, но и выгодно. Стоимость ресторанных блюд слишком высока, чтобы питаться в дорогих заведениях каждый день. Но вы заслуживаете на качественную пищу, которую мы доставляем каждый день.</p>
+                    </div>
+                    <div class="image"><img src="img/block_img_2.png" alt=""></div>
+                </div>
+                <div class="dignity-block clearfix">
+                    <div class="image"><img src="img/block_img_3.png" alt=""></div>
+                    <div class="text">
+                        <h4>Упаковываем правильно</h4>
+                        <p>Набор еды доставляется в эко-упаковке из пищевой фольги от «СтудиоПак». Еду в ней можно разогревать в микроволновке и хранить в холодильнике без потери приятного запаха, естественных вкусовых и полезных свойств.</p>
+                    </div>
+                </div>
+                <div class="dignity-block clearfix">
+                    <div class="text">
+                        <h4>Помогаем достичь результата</h4>
+                        <p>Питаясь у нас, вы получаете персонального диетолога-мотиватора. Вы сможете поменять рацион на любом этапе подписки, проконсультировавшись со специалистом и распределив остаток на счету с учетом индивидуальной скидки.</p>
+                    </div>
+                    <div class="image"><img src="img/block_img_4.png" alt=""></div>
+                </div>
+            </div>
+            <div class="about-us">
+                <h3>Ваш личный повар, диетолог и курьер<br>в одном лице</h3>
+                <p>Ежемесячно вы вкладываете деньги в разнообразные сервисы, оплачиваете услуги и делаете покупки.<br>Сделайте инвестицию в свое здоровье и красоту, и уже через месяц вы полюбите свое тело, позабыв о плохом самочувствии!
+                </p>
+                <div class="review-images">
+                    <div class="rev-image-slider"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-inset-4">
+        <div class="wrapper">
+            <div class="price-plan">
+                <p>Закажите пробное меню на один день!</p>
+                <p>Подарим скидку на подписку или вернем деньги, если еда вам не понравится!</p>
+                <button>Заказать пробное меню</button>
+            </div>
+        </div>
+    </div>
+    <div class="map-info clearfix">
+        <div class="block-information-wrapper">
+            <div class="block-information">
+                <p class="phone-numb">+38 (073) 302 03 33</p>
+                <p class="admission">Принимаем заказы ежедневно, 24/7</p>
+                <p class="delivery">Доставляем свежую еду по утрам,<br> в заранее согласованное время</p>
+                <div class="soc-wide-block">
+                    <p>Присоединяйтесь к нам в соцсетях!</p>
+                    <div class="social-wides clearfix">
+                        <a class="vk" href=""></a>
+                        <a class="fb" href=""></a>
+                        <a class="irg" href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-wrapper">
+            <iframe class="map" width="100%" height="600px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=ru&geocode=&q=Миколаїв&sll=46.959619,31.9875034,11.75&sspn=46.959619,31.9875034,11.75&ie=UTF8&hq=&hnear=Миколаїв,+Миколаївська+область,&ll=46.959619,31.9875034,11.75&spn=46.959619,31.9875034,11.75&z=14&output=embed"></iframe>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="pay-info clearfix">
+                <div class="pay-info-text">
+                    <p>Оплачивайте подписку удобным способом –<br>банковской картой или курьеру при получении еды.</p>
+                </div>
+                <div class="pay-info-icons clearfix">
+                    <a class="visa-icon" href=""><img src="img/visa_icon.png" alt=""></a>
+                    <a class="master-card-icon" href=""><img src="img/master_card_icon.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--
+    <div class="modal1">
+        <div id="modal_form">
+            <span id="modal_close">X</span>
+
+
+        </div>
+        <div id="overlay"></div>
+
+    </div>
+-->
+
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
